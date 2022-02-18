@@ -19,5 +19,16 @@ namespace CSharp// <-class. namespace harus sama sama yang di Program.cs
         public string title = "";
         public string author = "";
         public int pages;
+        public bool longBook() // object menthod
+        {
+            if (pages > 500)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

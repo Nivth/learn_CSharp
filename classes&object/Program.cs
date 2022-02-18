@@ -1,5 +1,6 @@
 using System;
 
+
 namespace CSharp
 {
     class Program
@@ -18,6 +19,7 @@ namespace CSharp
             book2.title = "The Hobbit";
 
             // print out the books
+            Console.WriteLine(book2.longBook());
             Console.WriteLine("The book is {0} by {1} and has {2} pages", book1.title, book1.author, book1.pages);
             Console.WriteLine("The book is {0} by {1} and has {2} pages", book2.title, book2.author, book2.pages);
         }

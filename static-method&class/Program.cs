@@ -6,9 +6,9 @@ namespace CSharp
 {
     class Program
     {
-        static void Main()
+        static void Main() // yang main itu yang di utamakan si program
         {
-            Console.WriteLine("alok jumsottt");
+            UsefulTools.SayHi("mamank");
         }
     }
 }
