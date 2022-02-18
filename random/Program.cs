@@ -5,7 +5,7 @@ namespace woi
     {
         static void Main(string[] args)
         {
-            // =================== Comment
+            // =================== Comment <-- comment lah apalagi
             // Console.WriteLine("Hello, World!");
             // Console.WriteLine("      /|");
             // Console.WriteLine("     / |");
